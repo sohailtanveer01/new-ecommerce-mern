@@ -83,8 +83,9 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/product/:id" component={ProductDetails} />
-        <Route path="/products/:keyword" component={Products} />
+       
         <Route path="/products" component={Products} />
+        <Route path="/products/:keyword" component={Products} />
         <Route path="/login" component={LoginSignup } />
         <Route path="/Search" component={Search} />
         <Route exact path="/about" component={About} />
